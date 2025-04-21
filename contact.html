@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – Patricio Alejandro Morón</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-wrapper">
+            <div class="site-logo"><a href="index.html">Patricio Alejandro Morón</a></div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero contact">
+            <div class="hero-content" style="max-width: 500px; margin: 0 auto;">
+                <h1>Contact me📎</h1>
+                <p style="margin-bottom: 30px; color: #555;">I’m always up for new projects, collaborations, or creative work. Drop me a line before reality updates again.</p>
+                <form action="mailto:tu.email@ejemplo.com" method="post" enctype="text/plain" style="display: flex; flex-direction: column; gap: 15px;">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <select name="Reason" required>
+                        <option value="" disabled selected>Selecciona un motivo</option>
+                        <option value="Propuesta de Proyecto">Propuesta de Proyecto</option>
+                        <option value="Colaboración">Colaboración</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Patricio Alejandro Morón. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
